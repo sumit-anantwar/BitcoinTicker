@@ -124,6 +124,7 @@
 		07F2104522940894008124AD /* OrderBookRecordFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBookRecordFactory.swift; sourceTree = "<group>"; };
 		07F2104622940894008124AD /* RandomData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomData.swift; sourceTree = "<group>"; };
 		07F2104822940894008124AD /* DashboardViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModelTests.swift; sourceTree = "<group>"; };
+		07F2104F22949276008124AD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10933AB3D55EDDEE02C19A49 /* Pods-BitcoinTicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinTicker.release.xcconfig"; path = "Target Support Files/Pods-BitcoinTicker/Pods-BitcoinTicker.release.xcconfig"; sourceTree = "<group>"; };
 		12AC572B062058D472F595AD /* Pods_BitcoinTickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinTickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A33861B84629F21523DCF76 /* Pods-BitcoinTickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinTickerUITests.debug.xcconfig"; path = "Target Support Files/Pods-BitcoinTickerUITests/Pods-BitcoinTickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +177,7 @@
 		07F20FAD22940572008124AD = {
 			isa = PBXGroup;
 			children = (
+				07F2104F22949276008124AD /* README.md */,
 				07F20FB822940572008124AD /* BitcoinTicker */,
 				07F20FCD22940573008124AD /* BitcoinTickerTests */,
 				07F20FD822940573008124AD /* BitcoinTickerUITests */,
