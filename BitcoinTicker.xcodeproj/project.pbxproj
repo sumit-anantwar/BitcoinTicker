@@ -199,13 +199,13 @@
 			isa = PBXGroup;
 			children = (
 				07F20FE7229406C6008124AD /* Main */,
-				07F2101022940772008124AD /* Extension */,
-				07F20FE822940772008124AD /* Model */,
-				07F2100722940772008124AD /* Resources */,
 				07F20FF022940772008124AD /* Swinject */,
+				07F20FE822940772008124AD /* Model */,
 				07F20FF622940772008124AD /* UI */,
-				07F20FF322940772008124AD /* Utils */,
 				07F20FEC22940772008124AD /* WebSocket */,
+				07F2100722940772008124AD /* Resources */,
+				07F2101022940772008124AD /* Extension */,
+				07F20FF322940772008124AD /* Utils */,
 			);
 			path = BitcoinTicker;
 			sourceTree = "<group>";
@@ -297,13 +297,13 @@
 		07F20FFA22940772008124AD /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				07F20FFB22940772008124AD /* OrderBookCell */,
-				07F20FFF22940772008124AD /* DashboardViewController.swift */,
 				07F2100022940772008124AD /* OrderBookSectionHeader */,
+				07F20FFB22940772008124AD /* OrderBookCell */,
+				07F2100622940772008124AD /* DashboardViewController.storyboard */,
+				07F20FFF22940772008124AD /* DashboardViewController.swift */,
+				07F2100522940772008124AD /* DashboardViewModel.swift */,
 				07F2100322940772008124AD /* DashboardStates.swift */,
 				07F2100422940772008124AD /* OrderBookDataSource.swift */,
-				07F2100522940772008124AD /* DashboardViewModel.swift */,
-				07F2100622940772008124AD /* DashboardViewController.storyboard */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -311,8 +311,8 @@
 		07F20FFB22940772008124AD /* OrderBookCell */ = {
 			isa = PBXGroup;
 			children = (
-				07F20FFC22940772008124AD /* OrderBookCellViewModel.swift */,
 				07F20FFD22940772008124AD /* OrderBookCell.xib */,
+				07F20FFC22940772008124AD /* OrderBookCellViewModel.swift */,
 				07F20FFE22940772008124AD /* OrderBookCell.swift */,
 			);
 			path = OrderBookCell;
@@ -321,8 +321,8 @@
 		07F2100022940772008124AD /* OrderBookSectionHeader */ = {
 			isa = PBXGroup;
 			children = (
-				07F2100122940772008124AD /* OrderBookSectionHeader.swift */,
 				07F2100222940772008124AD /* OrderBookSectionHeader.xib */,
+				07F2100122940772008124AD /* OrderBookSectionHeader.swift */,
 			);
 			path = OrderBookSectionHeader;
 			sourceTree = "<group>";
